@@ -4,71 +4,98 @@ The goal of this experiment is to evaluate how various prompting patterns (broad
 
 ## 2. Prompting Patterns Defined:
 
-### Broad/Unstructured Prompts: These are vague or open-ended queries without specific direction.
+### Broad/Unstructured Prompts: 
+These are vague or open-ended queries without specific direction.
 
-### Basic/Refined Prompts: These are clear, focused, and well-structured queries with a defined scope.
+### Basic/Refined Prompts: 
+These are clear, focused, and well-structured queries with a defined scope.
 
 ## 3. Test Scenarios:
 
-### Scenario 1: General Knowledge Inquiry
+### Scenario 1: 
+General Knowledge Inquiry
 
-### Broad Prompt: "Tell me about AI."
+### Broad Prompt: 
+"Tell me about AI."
 
-### Refined Prompt: "Explain how artificial intelligence is used in the healthcare industry."
-
-### Analysis:
-
-### Broad: Response may include a wide range of topics, from history to applications across industries.
-
-### Refined: Focused and relevant, specifically addressing healthcare use cases.
-
-### Scenario 2: Creative Writing
-
-### Broad Prompt: "Write a story."
-
-### Refined Prompt: "Write a short science fiction story about time travel involving a scientist who changes history."
+### Refined Prompt: 
+"Explain how artificial intelligence is used in the healthcare industry."
 
 ### Analysis:
 
-### Broad: Results in generic stories with unpredictable themes.
+### Broad: 
+Response may include a wide range of topics, from history to applications across industries.
 
-### Refined: Encourages cohesive narrative, structured plot, and creativity within bounds.
+### Refined:
+Focused and relevant, specifically addressing healthcare use cases.
 
-### Scenario 3: Code Generation
+### Scenario 2: 
+Creative Writing
 
-### Broad Prompt: "Write Python code."
+### Broad Prompt: 
+"Write a story."
 
-### Refined Prompt: "Write a Python function to calculate the factorial of a number using recursion."
-
-### Analysis:
-
-### Broad: May generate irrelevant or oversimplified code.
-
-### Refined: Provides a specific, usable, and relevant code snippet.
-
-### Scenario 4: Opinion-Based Query
-
-### Broad Prompt: "What do you think about education?"
-
-### Refined Prompt: "Discuss the impact of online education on student learning outcomes in higher education."
+### Refined Prompt:
+"Write a short science fiction story about time travel involving a scientist who changes history."
 
 ### Analysis:
 
-### Broad: General opinions without depth.
+### Broad: 
+Results in generic stories with unpredictable themes.
 
-### Refined: Detailed analysis with targeted arguments and evidence.
+### Refined: 
+Encourages cohesive narrative, structured plot, and creativity within bounds.
 
-### Scenario 5: Troubleshooting Assistance
+### Scenario 3: 
+Code Generation
 
-### Broad Prompt: "Help me with my code."
+### Broad Prompt: 
+"Write Python code."
 
-### Refined Prompt: "I'm getting a 'TypeError' when I try to sum a list of integers in Python. What's the issue and how can I fix it?"
+### Refined Prompt: 
+"Write a Python function to calculate the factorial of a number using recursion."
 
 ### Analysis:
 
-### Broad: Needs more context; response may be too generic.
+### Broad: 
+May generate irrelevant or oversimplified code.
 
-### Refined: Directly addresses the problem with diagnostic advice.
+### Refined:
+Provides a specific, usable, and relevant code snippet.
+
+### Scenario 4: 
+Opinion-Based Query
+
+### Broad Prompt: 
+"What do you think about education?"
+
+### Refined Prompt: 
+"Discuss the impact of online education on student learning outcomes in higher education."
+
+### Analysis:
+
+### Broad: 
+General opinions without depth.
+
+### Refined: 
+Detailed analysis with targeted arguments and evidence.
+
+### Scenario 5: 
+Troubleshooting Assistance
+
+### Broad Prompt: 
+"Help me with my code."
+
+### Refined Prompt: 
+"I'm getting a 'TypeError' when I try to sum a list of integers in Python. What's the issue and how can I fix it?"
+
+### Analysis:
+
+### Broad: 
+Needs more context; response may be too generic.
+
+### Refined: 
+Directly addresses the problem with diagnostic advice.
 
 ## 4. Conclusion:
 Refined prompts consistently lead to more accurate, relevant, and in-depth responses. Broad prompts may work for exploratory purposes but often lack precision. For high-quality outputs, refining the prompt with clear intent and context is essential.
